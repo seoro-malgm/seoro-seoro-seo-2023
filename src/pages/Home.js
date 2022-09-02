@@ -26,7 +26,6 @@ export const Home = (props) => {
             reference: reference?.rich_text.map((t) => t.plain_text),
           };
         });
-        // console.log("items", items);
         setDB(items);
       }
     } catch (error) {

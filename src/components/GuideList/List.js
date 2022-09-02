@@ -9,7 +9,6 @@ export default function GuideList(props) {
 
   function ListItem(props) {
     const { id, content, major, subtopic, etc, reference } = props.item;
-    console.log("reference", reference);
     return (
       <div className="list-item" key={id}>
         <header className="item-header">

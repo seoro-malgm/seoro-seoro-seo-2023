@@ -8,7 +8,7 @@ export const GlobalNav = () => {
           <Link to="/">메인</Link>
         </h1>
         <div className="links">
-          <Link to="/contact">Ours</Link>
+          <Link to="/contact">구독하기</Link>
         </div>
       </div>
     </div>
